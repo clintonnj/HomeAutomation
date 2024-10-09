@@ -28,4 +28,3 @@ jobs:
         run: |
          chmod +x ./app.sh
          ./app.sh
-        shell: bash
