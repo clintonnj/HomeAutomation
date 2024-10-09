@@ -26,5 +26,5 @@ jobs:
       # Setup virtual env, install dependencies
       - name: Create new virtual env and activate it
         run: |
-          npm install &
+          npm install
           node app.js &
