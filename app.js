@@ -23,7 +23,7 @@ http
       res.write(JSON.stringify(payload));
       res.end();
     } else {
-      res.write("<h1>Home automation server</h1>");
+      res.write("<h1>Home automation server v1</h1>");
       res.end();
     }
   })
